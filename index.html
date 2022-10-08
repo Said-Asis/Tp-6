@@ -17,7 +17,35 @@
             <li> agregandolo como un archivo separado con "&lt;script src="Origen del archivo JS"&gt; &lt;/script&gt;".</li>
         </ul>
     </p>
-    <p>3) Las expresiones regulares en JS son una secuencia de caracteres que forman un patron, son utilizados para filtrar informacion en una cadena de caracteres, y tambien son considerados objetos. Se pueden construir de 2 formas diferentes: <ul> 
+    <p>3) JavaScript tiene 3 tipos de variables: <ul>
+        <li>var: declara una variable, opcionalmente la inicia a un valor</li>
+        <li>let: declara una variable local con ámbito de bloque, opcionalmente la inicia a un valor.</li>
+        <li>const: Declara un nombre de constante de solo lectura y ámbito de bloque.</li>
+    </ul> <br>
+    JavaScript tiene 9 tipos de datos, 6 primitivos, 3 modernos. <br>
+    Los primitivos son: <ul>
+        <li>Undefined: declara un nombre de constante de solo lectura y ámbito de bloque.</li>
+        <li>Boolean: en ciencias de informática, un boolean es un dato lógico que solo puede tener los valores true o false.</li>
+        <li>Number: en JavaScript, Number es un tipo de datos numérico (double-precision 64-bit floating point format (IEEE 754)). En otros lenguajes de programación puede existir diferentes tipos numéricos, por ejemplo: Integers, Floats, Doubles, or Bignums.</li>
+        <li>String: En JavaScript, un String es uno de los valores primitivos y el objeto String es un envoltorio alrededor de un String primitivo.</li>
+        <li>BigInt: En JavaScript, BigInt es un tipo de dato numerico que puede representar números enteros en el formato de precision arbitrario.</li>
+        <li>Symbol: es un objeto incorporado cuyo constructor devuelve un symbol primitivo — también llamado Symbol value o simplemente Symbol — que está garantizado que sea único. Los Symbols se utilizan a menudo para añadir claves de propiedades únicas a un objeto que no sean iguales a las claves que cualquier otro código pueda añadir al objeto, y que están ocultas de cualquier mecanismo que otro código utilice normalmente para acceder al objeto. Esto permite una forma de encapsulation débil, o una forma débil de ocultación de información. <br>
+        Se garantiza que cada llamada a Symbol() devuelve un único Symbol. Cada llamada a Symbol.for("key") devolverá siempre el mismo Symbol para un valor dado de "key". Cuando se llama a Symbol.for("key"), si se puede encontrar un símbolo con la clave dada en el registro global de símbolos, se devuelve ese Symbol. En caso contrario, se crea un nuevo Symbol, se añade al registro global de Symbols con la clave dada y se devuelve.</li>
+    </ul>
+        Los modernos son: <ul>
+            <li>Null: tipo primitivo especial que tiene un uso adicional para su valor: si el objeto no se hereda, se muestra "null"</li>
+            <li>Object: tipo estructural especial que no es de datos pero para cualquier instancia de objeto construido que también se utiliza como estructuras de datos: new Object, new Array, new Map (en-US), new Set, new WeakMap, new WeakSet, new Date y casi todo lo hecho con la palabra clave "new"</li>
+            <li>Function: esta simplemente es una forma abreviada para funciones, aunque cada constructor de funciones se deriva del constructor "Object".</li>
+        </ul><br>
+    
+        
+        
+        
+        
+        
+        
+        
+        Las expresiones regulares en JS son una secuencia de caracteres que forman un patron, son utilizados para filtrar informacion en una cadena de caracteres, y tambien son considerados objetos. Se pueden construir de 2 formas diferentes: <ul> 
             <li> Usando una expresion regular literal, que consiste en un patrón encerrado entre barras (let re = /ab+c/;)</li><br>
             <li> Llamando a la función constructora del objeto RegExp, de la siguiente manera (let re = new RegExp('ab+c');).</li>
         </ul>
@@ -62,5 +90,7 @@
             </li> <br><br>
         </ul>
     </p>
+
+    <p>5) </p>
 </body>
 </html>
