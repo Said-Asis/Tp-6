@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header> 
+
+
+    </header>
+    <p>1) Esta ECMAScript 1 (ES1, 1997), ECMAScript 2 (ES2, 1998), ECMAScript 3 (ES, 1999), ECMAScript 5 (ES5, 2009), ECMAScript 2015 (ES5), ECMAScript 2016 (ES7), ECMAScript 2017 (ES8), ECMAScript 2018 (ES9), ECMAScript 2019 (ES10) y ECMAScript 2020 (ES11).</p>
+    <p>2) Se puede integrar de 2 maneras: <ul>
+            <li>Insertando el codigo de JS con la etiqueta "&lt;script&gt; &lt;/script&gt;" en el head o en el body del HTML</li><br>
+            <li> agregandolo como un archivo separado con "&lt;script src="Origen del archivo JS"&gt; &lt;/script&gt;".</li>
+        </ul>
+    </p>
+    <p>3) Las expresiones regulares en JS son una secuencia de caracteres que forman un patron, son utilizados para filtrar informacion en una cadena de caracteres, y tambien son considerados objetos. Se pueden construir de 2 formas diferentes: <ul> 
+            <li> Usando una expresion regular literal, que consiste en un patrón encerrado entre barras (let re = /ab+c/;)</li><br>
+            <li> Llamando a la función constructora del objeto RegExp, de la siguiente manera (let re = new RegExp('ab+c');).</li>
+        </ul>
+    </p>
+    <p>4) Las 7 formas de declarar una funcion en JS son las siguientes: 
+        <ul>
+            <li>Function Declaration: se crea con la palabra "function", seguido obligatoriamente de un nombre que la identifique, una lista de parámetros entre paréntesis, que puede estar vacia, y llaves {}, que delimitaran el contenido de nuestro grupo de sentencias. <img src="Imagenes/function.png" alt="Function"> <br><br>
+            
+            Otra caracteristica que tienen las funciones por defecto es devolver el valor "undefined", para evitar esto, y devolver un valor diferente, se utiliza la instruccion "return". <br>
+            <img src="Imagenes\function_return.png" alt="Function Return"><br><br>
+
+            Este tipo de funciones son compatibles con el "hoisting", una caracteristica de JS, por la cual las definiciones se ejecutan al principio de la ejecución del código.
+            </li><br>
+
+            <li>Function expression: esta es muy similar a la anterior, solo que la diferencia es que la definicion de nuestra nueva funcion no comienza por instruccion "function", sino que comienza creando una variable en donde esta se aloja (preferiblemente se utiliza "const", ya que no puede ser modificada), y el nombre de la funcion es opcional. <br>
+             <img src="Imagenes/Function_expression.png" alt="Function Expression"><br><br>
+            
+            Otra diferencia con la funcion anterior es que estas no son compatibles con el "hoisting". <br><br>
+            </li>
+
+            <li>IIFE (Immediately Invoked Function Expression): esta funcion es caracterizada por ser de un unico uso. Para crear una función de este tipo deberemos crearla en un operador de agrupación (). Seguido de (), lo que posibilitará el interpretado directamente en el motor de JavaScript. <br>
+            <img src="Imagenes/IIFE.png" alt="IIFE"><br><br>
+            </li>
+
+            <li>Shorthand method definition: esta orma de crear las funciones puede ser utilizado como método en la declaración de un objeto o en las clases de ES6. Para crear este tipo de función debemos asignar un nombre de función seguido de una lista de parámetros entre paréntesis y los símbolos de llaves para delimitar el cuerpo de las instrucciones. <br>
+            <img src="Imagenes/Shorthand_Method_Definition.png" alt="Shorthand method definition"><br><br>
+            </li>
+
+            <li>Arrow function: esta es otra de las novedades de ES6, la forma de crear estas funciones es la siguiente: primero definiremos la lista de parámetros, en caso de ser necesario, entre paréntesis seguido del símbolo "=>" y las "{}" para indicar las instrucciones que se van a realizar. Además de la sintaxis que es diferente, este tipo de funciones tienen las siguientes características: <ul>
+                <li>Las "arrow function" no crean su propio contexto al ejecutarse. Al contrario que las "function expression" o las "function declaration" que crea su propio contexto.</li>
+                <li>Las "arrow function" son anónimas.</li>
+                <li>El objeto "arguments" no se encuentra en el contexto de la función.</li>
+                <li>Si al definir la función no utilizamos el símbolo de las llaves. La función devolverá como resultado de la función el resultado de la ejecución de la instrucción que hayamos indicado.</li>
+            </ul> <br> <img src="Imagenes/Arrow_Function.png" alt="Arrow Function"> <br><br>
+           </li>
+
+            <li>Generator function: esta es caracterizada por permitirnos parar o salir de la función en un punto dentro del conjunto de instrucciones que forman nuestra función y retornar posteriormente la ejecución desde el punto en el que paramos anteriormente. La sintaxis de estas funciones es igual a las "function declaration" o "function expression". Sólo debemos utilizar el símbolo "*" al comienzo de la definición de nuestra función. <br>
+            <img src="Imagenes/Generator_function.png" alt="Generator Function"></li> <br><br>
+
+            <li>Function constructor: esta es forma bastante inusual de declarar las funciones, ya que se caracteriza por crear funciones. Podremos crear una variable que invoque a un objeto Function. Cuando invoquemos a este objeto podremos enviar todos los argumentos que deseemos. Los primeros n argumentos serán los parámetros de nuestra función y el último argumento será el código de nuestra función. <br>
+                <img src="Imagenes/Function_Constructor.png" alt="Function Constructor">
+            </li> <br><br>
+        </ul>
+    </p>
+</body>
+</html>
