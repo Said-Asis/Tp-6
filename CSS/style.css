@@ -1,0 +1,13 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    grid-auto-rows: minmax(100px, auto);
+}
+#parent{
+    background-color: rgb(125, 125, 245);
+    display: none;
+}
+#captcha{
+    display: block;
+}
